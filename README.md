@@ -1,4 +1,4 @@
-# HEart Failure Prediction
+# Heart Failure Prediction
 
 ## Overview
 
