@@ -14,17 +14,23 @@
 Heart-Failure-Prediction/
 │
 ├── data/
-│   ├── 
+│   ├── raw
+│       ├── heart.csv
 │
-├── notebooks/
+├── powerbi_only/
 │   └── 
 │
-├── outputs/
-│   ├── figures/
-│   └── predictions/
-│
-├── src/
-│   ├── 
+├── python_powerbi/
+│   ├── notebooks/
+│   ├── outputs/
+│       ├── figures
+│       └── predictions
+│   ├── src
+│       ├── data_loader.py
+│       ├── evaluation.py
+│       ├── models.py
+│       └── preprocessing.py
+│   └── powerbi/
 │
 ├── .gitignore
 ├── README.md
