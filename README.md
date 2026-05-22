@@ -54,8 +54,7 @@ Heart-Failure-Prediction/
 ├── python_powerbi/
 │   ├── notebooks/
 │   │   ├── 01_eda_heart_disease.ipynb
-│   │   ├── 02_modeling_heart_disease.ipynb
-│   │   └── 03_evaluation.ipynb
+│   │   └── 02_modeling_heart_disease.ipynb
 │   │
 │   ├── outputs/
 │   │   ├── figures/
