@@ -46,7 +46,7 @@ Heart-Failure-Prediction/
 │   ├── processed/
 │   │   └── heart_processed.csv
 │   │
-│   └── data_attributes.docx
+│   └── data_dictionary.md
 │
 ├── powerbi_only/
 │   └── heart_dashboard.pbix
