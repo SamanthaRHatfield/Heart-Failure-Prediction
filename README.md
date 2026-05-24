@@ -150,6 +150,30 @@ Prediction outputs were exported to:
 
 The Random Forest model demonstrated strong predictive performance with high classification accuracy and strong probability separation between risk groups.
 
+## Power BI Setup
+
+Power BI Desktop is required to open the dashboard files.
+
+If the data source connection is broken after downloading the repository:
+
+1. Open the `.pbix` file in Power BI Desktop
+2. Navigate to:
+   - **Home → Transform Data → Data Source Settings**
+3. Select the current file path and choose:
+   - **Change Source**
+4. Point Power BI to the correct dataset location:
+   - `data/raw/heart.csv`
+   - or
+   - `data/processed/heart_processed.csv`
+
+For the predictive dashboard, also reconnect:
+
+- `python_powerbi/outputs/predictions/predictions.csv`
+
+After reconnecting the data sources:
+- Select **Refresh**
+- Save the `.pbix` file
+
 ## Dashboard Pages
 
 ### Overview
